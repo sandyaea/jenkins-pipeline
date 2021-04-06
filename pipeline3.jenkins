@@ -33,6 +33,7 @@ pipeline {
                   echo "Line 2"
                   echo "Line 3"
                 '''
+                sh "python --version"
                 echo "End of Stage Deploy"
             }
         }
